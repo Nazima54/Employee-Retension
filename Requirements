@@ -1,0 +1,5 @@
+#libraries needed
+require(dplyr)
+require(rpart)
+require(ggplot2)
+require(scales)
