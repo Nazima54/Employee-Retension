@@ -149,7 +149,7 @@ data_proportion_by_percentile = data %>%
 qplot(salary_percentile, proportion_early_quitters, data=data_proportion_by_percentile, geom="line", group =1) + scale_x_discrete(breaks = seq(1,50, by=2))
 
 
-#Conclusions
+#
 #1. Given how important is salary, I would definitely love to have as a variable the salary the employee
 #who quit was offered in the next job. Otherwise, things like: promotions or raises received during the employee tenure would be interesting.
 #2. The major findings are that employees quit at year anniversaries or at the beginning of the year.
